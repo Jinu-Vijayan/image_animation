@@ -18,6 +18,7 @@ body{
     display: flex;
     justify-content: center;
     gap:1vw;
+    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
 }
 
 .container:hover .img{
@@ -30,7 +31,6 @@ body{
     transform: perspective(800px) rotateY(20deg);
     box-shadow: 0 0 5px 2px gray;
     transition:transform 500ms linear;
-    -webkit-box-reflect: below 1px linear-gradient(transparent,transparent,#0004);
     border-radius: 5px;
 }
 
